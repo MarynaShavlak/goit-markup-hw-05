@@ -2,6 +2,9 @@
 
 :root {
   --color-primary: #4d5ae5;
+  --color-pressed: #404bbf;
+  --color-dark: #2e2f42;
+  --color-subtle: #8e8f99;
   --color-light: #f4f4fd;
   --color-white: #ffffff;
 }
@@ -66,8 +69,8 @@ img {
   padding-bottom: 120px;
 }
 
-/* Приховування заголовка візуально, лишаючи його для скрінрідерів */
-.sr-only {
+/* Візуальне приховування елемента, лишаючи його для скрінрідерів */
+.visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
