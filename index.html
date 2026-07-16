@@ -481,17 +481,16 @@
         <div class="footer-subscribe">
           <p class="footer-subscribe-title">Subscribe</p>
           <form class="subscribe-form" name="subscribe-form">
-            <label class="sr-only" for="subscribe-email">
-              Enter your email address
+            <label class="subscribe-field" for="subscribe-email">
+              <input
+                class="subscribe-input"
+                type="email"
+                name="user-email"
+                id="subscribe-email"
+                placeholder="E-mail"
+                required
+              />
             </label>
-            <input
-              class="subscribe-input"
-              type="email"
-              name="user-email"
-              id="subscribe-email"
-              placeholder="E-mail"
-              required
-            />
             <button class="subscribe-button" type="submit">
               Subscribe
               <svg class="subscribe-icon" width="24" height="24">

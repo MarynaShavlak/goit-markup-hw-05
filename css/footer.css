@@ -85,12 +85,13 @@
 .subscribe-input {
   width: 264px;
   height: 40px;
-  padding: 8px 16px;
+  padding-left: 16px;
   border: 1px solid var(--color-white);
   border-radius: 4px;
   background-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-size: 12px;
-  line-height: 1.17;
+  line-height: 2;
   letter-spacing: 0.04em;
   color: var(--color-white);
   outline: transparent;
@@ -115,7 +116,7 @@
   border: none;
   border-radius: 4px;
   background-color: var(--color-primary);
-  font-family: inherit;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
