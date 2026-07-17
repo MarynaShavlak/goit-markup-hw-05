@@ -70,7 +70,7 @@ img {
 }
 
 /* Візуальне приховування елемента, лишаючи його для скрінрідерів */
-.visually-hidden {
+.sr-only {
   position: absolute;
   white-space: nowrap;
   width: 1px;
