@@ -91,7 +91,7 @@
   background-color: transparent;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--color-white);
   outline: transparent;
@@ -103,7 +103,7 @@
 }
 
 .subscribe-input:focus {
-  border-color: var(--color-primary);
+  border-color: #31d0aa;
 }
 
 .subscribe-button {
@@ -128,7 +128,7 @@
 
 .subscribe-button:hover,
 .subscribe-button:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .subscribe-icon {
